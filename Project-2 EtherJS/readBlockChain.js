@@ -4,7 +4,7 @@ const provider = new ethers.JsonRpcProvider(`https://mainnet.infura.io/v3/e4ad9a
 
 const queryBlockChain = async () => {
     let count_block = 0
-    for (let i = 1; i <= 10; i++) {
+
         const blockNumber = await provider.getBlockNumber();
         const block = await provider.getBlock(blockNumber);
         const balance = await provider.getBalance(block.miner)
@@ -16,8 +16,6 @@ const queryBlockChain = async () => {
         console.log("Account Balance in BN", balance);
         console.log("Account Balance in RTH", etherBalance);
         console.log("-----------------------------------------------------");
-        
-    }
 
 
 }
