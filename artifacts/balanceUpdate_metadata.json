@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn solidity/contractBalanceUpdate.sol": "balanceUpdate"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn solidity/contractBalanceUpdate.sol": {
+			"keccak256": "0xfe9b1fad55c09a8f36a11f1fe9290a122d771bec1ebc879cbcbe477d461c0609",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11ccf208d0f27ec265845c15787f658ce2afcce84c1458e6c60b1a05a0813313",
+				"dweb:/ipfs/QmSnpDJhbaBeo5W6fUFvtAbkTGTujgjEBVxnALk5k2yJFG"
+			]
+		}
+	},
+	"version": 1
+}
