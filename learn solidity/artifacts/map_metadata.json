@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,7 +9,15 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "roll",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "class",
 						"type": "uint256"
 					},
 					{
@@ -18,28 +26,30 @@
 						"type": "string"
 					}
 				],
-				"name": "mapStudent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_roll",
 						"type": "uint256"
-					}
-				],
-				"name": "roll_no",
-				"outputs": [
+					},
+					{
+						"internalType": "uint256",
+						"name": "_class",
+						"type": "uint256"
+					},
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_name",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "setStd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +68,7 @@
 		"compilationTarget": {
 			"maping.sol": "map"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -71,11 +81,11 @@
 	},
 	"sources": {
 		"maping.sol": {
-			"keccak256": "0x0231d6b47622a9ba209908259cb6c89e229907d59b8076c25dc8a9f57c544d80",
+			"keccak256": "0x45a5b63ca6eb24a841167d954f3a2f5434b6a60af2376729fd076c852780b4ef",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://86f631a354ca5b6e2d3a3c3f053b66b3505803c1a62ebe05b87bca6e0f9771b3",
-				"dweb:/ipfs/QmSHxjEgB9dtoxADjquZSLQMPs2doNhM4PdzwpUN8v2ZGG"
+				"bzz-raw://80a8c8a65a28db8900a0a4075b0f01e30f19615fdec12771f9a1ca0fc74ffb50",
+				"dweb:/ipfs/QmWtMYjWj2SQFBjsK1NKFXyHUZxCErQCm2U7kGjAffiTdT"
 			]
 		}
 	},
