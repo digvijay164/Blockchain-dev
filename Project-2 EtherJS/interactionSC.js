@@ -6,7 +6,7 @@ const provider = new ethers.JsonRpcProvider(
   "https://sepolia.infura.io/v3/e4ad9a2429c440e58a648b890f6bad7b"
 );
 
-const walletAddress = "0x1cb6dbfa1a9afb08f67db0beddb46ac6af79afae";
+const walletAddress = "0x86f1d071ca2ddc956235c8fdc38e062fed95c882";
 const walletABI = [
 	{
 		"inputs": [],

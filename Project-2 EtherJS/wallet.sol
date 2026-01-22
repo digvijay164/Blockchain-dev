@@ -19,7 +19,8 @@ contract wallet{
     }
 
     function sendEtherUser(address _user) public payable{
-        payable(_user).transfer(msg.value);
+        (bool success, ) = payable(_user).call{value: msg.value}("");
+        require(success, "Transfer failed");
     }
 
     function accountBalance(address _address) public view returns(uint){

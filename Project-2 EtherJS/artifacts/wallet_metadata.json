@@ -125,11 +125,11 @@
 	},
 	"sources": {
 		"wallet.sol": {
-			"keccak256": "0x66a01dc63cb631e624573333634f8f3816af7025b0d32cf82e29be77277178ba",
+			"keccak256": "0x13e9249170189dafa437bd39c9f0bfc35dc55ce1c508c21dd242d7d7ef957c88",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://41345eba659cc7fd3c45f41c1f5f085a726ce345afc65a9c899594e59a34d7a3",
-				"dweb:/ipfs/QmYc94QxkEmBo8RAFCKaU5ewmBC9ZAMJirAxgFd1mCeksJ"
+				"bzz-raw://a820796ec537ccb25f7935dbcc993565401ff5e2599a3cb62d717a1a12157e4b",
+				"dweb:/ipfs/Qmaz1LTZaHDEFS5a3QgCZkJzoErrRDkwBR9PcYcQahHdMS"
 			]
 		}
 	},
