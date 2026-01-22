@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 contract wallet{
     string public name = "Digvijay's wallet";
     uint num;
-    function setValue(uint _num) public{
+    function setValue(uint _num) public payable {
         num = _num;
     }
 

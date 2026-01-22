@@ -93,7 +93,7 @@
 				],
 				"name": "setValue",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -125,11 +125,11 @@
 	},
 	"sources": {
 		"wallet.sol": {
-			"keccak256": "0xf76e3ef661a73c8c7d270f3bc47ef3ff3d705a44180b4730bd272f7a3352fcfd",
+			"keccak256": "0x66a01dc63cb631e624573333634f8f3816af7025b0d32cf82e29be77277178ba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://58300d79c5a788a82b992d7da84fcf5d828184f38ba027c8adb37ac10d9bb3c3",
-				"dweb:/ipfs/QmVSRmXhCht3dQUAvGuaeJsfXTxL9QDvK9vHS8zngQ7adG"
+				"bzz-raw://41345eba659cc7fd3c45f41c1f5f085a726ce345afc65a9c899594e59a34d7a3",
+				"dweb:/ipfs/QmYc94QxkEmBo8RAFCKaU5ewmBC9ZAMJirAxgFd1mCeksJ"
 			]
 		}
 	},

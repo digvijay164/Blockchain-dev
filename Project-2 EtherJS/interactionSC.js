@@ -6,8 +6,7 @@ const provider = new ethers.JsonRpcProvider(
   "https://sepolia.infura.io/v3/e4ad9a2429c440e58a648b890f6bad7b"
 );
 
-// const walletAddress = "0x47EfAa37Ae45fb7319828471873F876236099B74";
-const walletAddress = "0xC0E661aE6630D63807237d481A6650871f3179Aa";
+const walletAddress = "0x1cb6dbfa1a9afb08f67db0beddb46ac6af79afae";
 const walletABI = [
 	{
 		"inputs": [],
@@ -39,7 +38,7 @@ const walletABI = [
 		],
 		"name": "setValue",
 		"outputs": [],
-		"stateMutability": "nonpayable",
+		"stateMutability": "payable",
 		"type": "function"
 	},
 	{
@@ -100,7 +99,7 @@ const walletABI = [
 		"stateMutability": "view",
 		"type": "function"
 	}
-];
+]
 
 const contractIntraction = async ()=>{
     const network = await provider.getNetwork();
@@ -120,10 +119,10 @@ const contractIntraction = async ()=>{
     const userBalance = await walletContract.accountBalance("0xe9fFEEd02397A2D693675402ba6c856e2D6E2280");
     const ETHuserBalance = ethers.formatEther(userBalance);
     
-    console.log("Contract Name             : " ,ETHcontractBalance);
+    console.log("Contract Name             : " ,contractName);
     console.log("Number Value              : " ,num);
-    console.log("contract Balance in ETHER : " ,contractBALANCE);
-    console.log("user balance in ETHER     : ",userBalance);
+    console.log("contract Balance in ETHER : " ,ETHcontractBalance);
+    console.log("user balance in ETHER     : ",ETHuserBalance);
     
 }
 
