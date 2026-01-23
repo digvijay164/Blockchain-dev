@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity Project/Event Organization/Event.sol": "Event"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity Project/Event Organization/Event.sol": {
+			"keccak256": "0x96932474d49ad9b0ba4e1b224e114574b9105c37f7d9a3ab47c838b14f46b325",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f9d4e75c695b7c8cc1dcc45e2db1e5d488da8637f0ed65716fa70f71f7b69cf",
+				"dweb:/ipfs/QmeZoikmC3o5chAeMXKKYfUwgDS8k942ctVAJyXe9srDJY"
+			]
+		}
+	},
+	"version": 1
+}
