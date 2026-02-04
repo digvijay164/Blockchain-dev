@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="node_modules/web3.js-browser/build/web3.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: black;
+        }
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body class="flex items-center justify-center bg-black">
+    <div class="renderAcc bg-blue-400 h-[50%] w-[70%] flex items-center justify-center">
+        
+    </div>
+    <script>
+        (async()=>{
+            let web3 = new Web3("http://127.0.0.1:8545");
+            let accounts = await web3.eth.getAccounts();
+            console.log(accounts);
+            let callAccounts = document.querySelectorAll(".renderAcc")
+            callAccounts.forEach(async(e)=>{
+                return  e.innerHTML = accounts.join("<br>");
+            })
+        })();
+    </script>
+</body>
+
+</html>
