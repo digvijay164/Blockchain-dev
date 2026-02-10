@@ -12,7 +12,7 @@ contract Token {
         owner = msg.sender;
     }
     // Transfer Token function
-    function transfer(address to, uint amount) external {
+    function transfer(address to, uint256 amount) external {
         require(balances[msg.sender] >= amount, "Not enough tokens");
         balances[msg.sender] -= amount;
         balances[to] += amount;
